@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="永芳旅行社有限公司｜用心規劃每一段旅程，帶您遇見世界的美好。精選中國、日本、韓國、歐洲及東南亞旅遊。">
+  <meta name="theme-color" content="#09131b">
+  <title>永芳旅行社｜帶您遇見世界的美好</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#09131b;--panel:#111f2b;--line:#293b49;--text:#f5f7f8;--muted:#b5c1c8;--cyan:#76e1e4;--violet:#a69aff;--gold:#d6b77c;--font:'Noto Sans TC',sans-serif}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:var(--font);line-height:1.8}a{color:inherit;text-decoration:none}.wrap{width:min(1160px,calc(100% - 44px));margin:auto}
+    .site-header{height:86px;display:flex;align-items:center;justify-content:space-between;width:min(1280px,calc(100% - 56px));margin:auto;border-bottom:1px solid #ffffff20;position:relative;z-index:5}.brand{display:flex;align-items:center;gap:11px;font-weight:800;letter-spacing:2px}.brand-mark{width:34px;height:34px;border:1px solid var(--cyan);display:grid;place-items:center;color:var(--cyan);font:500 18px 'DM Mono'}.brand small{display:block;color:#94a8b5;font:9px 'DM Mono';letter-spacing:2px}.site-header nav{display:flex;gap:34px}.site-header nav a{font-size:13px;color:#d1dce1}.site-header nav a:hover{color:var(--cyan)}.site-header nav small{display:block;font:9px 'DM Mono';letter-spacing:1.5px;color:#82939f}.header-cta,.btn{display:inline-flex;align-items:center;gap:12px;padding:12px 18px;border:1px solid #ffffff55;font-size:12px}.header-cta:hover,.btn:hover{border-color:var(--cyan);color:var(--cyan)}.menu-toggle{display:none;background:none;border:0;color:white;font-size:25px}
+    .hero{min-height:650px;display:flex;align-items:center;position:relative;isolation:isolate;background:linear-gradient(90deg,rgba(5,14,20,.86),rgba(5,14,20,.47) 58%,rgba(5,14,20,.18)),url('https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=2000&q=85') center/cover no-repeat}.hero:after{content:'';position:absolute;inset:0;background:linear-gradient(0deg,var(--bg),transparent 24%,transparent 82%,#09131b66);z-index:-1}.hero-inner{width:min(1160px,calc(100% - 44px));margin:auto;padding:90px 0}.eyebrow{font:11px 'DM Mono';letter-spacing:3px;color:var(--cyan)}.hero h1{font-size:clamp(48px,7vw,82px);line-height:1.25;letter-spacing:1px;margin:22px 0}.gradient{background:linear-gradient(100deg,var(--cyan),#b3b5ff);-webkit-background-clip:text;background-clip:text;color:transparent}.hero p{max-width:590px;color:#e0e8eb;font-size:17px;line-height:2}.hero-actions{display:flex;gap:15px;flex-wrap:wrap;margin-top:30px}.btn-primary{background:linear-gradient(110deg,#75dfe2,#a69aff);border:0;color:#08141b;font-weight:800}.hero-note{margin-top:55px;color:#c2d0d5;font:10px 'DM Mono';letter-spacing:2px}.hero-note span{margin-right:22px}
+    .ticker{border-block:1px solid var(--line);padding:17px 0;text-align:center;color:#a9b8c1;font:10px 'DM Mono';letter-spacing:2px}.ticker b{color:var(--cyan);padding:0 18px}.section{padding:100px 0}.section-head{text-align:center;margin-bottom:45px}.section-head h2{font-size:clamp(29px,4vw,42px);margin:10px 0}.section-head p{color:var(--muted);margin:0}.intro{max-width:800px;text-align:center;color:#c0cbd0;margin:0 auto}.destinations{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}.destination{min-height:220px;position:relative;overflow:hidden;border:1px solid #ffffff20;background:#152431}.destination img{width:100%;height:100%;min-height:220px;object-fit:cover;position:absolute;inset:0;opacity:.72;transition:.35s}.destination:after{content:'';position:absolute;inset:0;background:linear-gradient(0deg,#07121be8,transparent 80%)}.destination:hover img{transform:scale(1.06);opacity:.9}.destination div{position:absolute;z-index:1;left:18px;bottom:15px}.destination h3{margin:0;font-size:19px}.destination p{margin:3px 0 0;color:#d1dce1;font-size:11px}
+    .trips{background:#0d1a25;border-block:1px solid var(--line)}.trip-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}.trip-card{background:#122330;border:1px solid #314653;overflow:hidden}.trip-card img{width:100%;height:230px;object-fit:cover;display:block}.trip-content{padding:24px}.trip-tag{font:10px 'DM Mono';letter-spacing:2px;color:var(--cyan)}.trip-content h3{font-size:22px;margin:9px 0}.trip-content p{color:var(--muted);font-size:13px;margin:7px 0}.trip-bottom{display:flex;align-items:end;justify-content:space-between;gap:15px;margin-top:20px;padding-top:17px;border-top:1px solid var(--line)}.trip-date{font-size:13px;color:#e3eaed}.trip-price{font-size:24px;font-weight:900;color:var(--gold);white-space:nowrap}.trip-price small{font-size:11px;color:var(--muted);font-weight:400}.trip-note{text-align:center;color:#899ba5;font-size:11px;margin-top:25px}
+    .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}.about-photo{width:100%;height:390px;object-fit:cover;border:1px solid #ffffff24}.about-copy h2{font-size:36px;line-height:1.45;margin:12px 0}.about-copy p{color:var(--muted);font-size:14px}.values{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:25px}.value{padding:17px;background:#122330;border:1px solid var(--line);text-align:center}.value strong{display:block;color:var(--cyan);font-size:18px}.value span{font-size:11px;color:var(--muted)}
+    .contact{background:radial-gradient(ellipse at 80% 20%,#334b5b66,transparent 50%),#0d1a25;border-top:1px solid var(--line)}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:35px}.contact-card{padding:30px;background:#122330;border:1px solid #344956}.contact-card h3{margin-top:0;font-size:22px}.contact-line{padding:13px 0;border-top:1px solid #ffffff18}.contact-line small{display:block;color:#8fa4af;font:10px 'DM Mono';letter-spacing:1.5px}.contact-line strong{font-size:14px;font-weight:500}.contact-line a{color:var(--cyan)}.footer{padding:28px 0;display:flex;justify-content:space-between;gap:18px;align-items:center;flex-wrap:wrap;color:#8fa0aa;font-size:11px}.footer strong{color:#e9f0f2;font-size:15px}.footer a{color:var(--cyan)}
+    @media(max-width:850px){.site-header{height:72px}.menu-toggle{display:block}.site-header nav{display:none;position:absolute;top:72px;left:0;right:0;padding:20px;background:#101f2b;flex-direction:column;gap:17px;border:1px solid var(--line)}.site-header nav.open{display:flex}.header-cta{display:none}.hero{min-height:590px}.destinations{grid-template-columns:repeat(2,1fr)}.destination:last-child{grid-column:span 2}.about-grid,.contact-grid{grid-template-columns:1fr}.about-photo{height:300px}.section{padding:75px 0}}
+    @media(max-width:560px){.wrap,.hero-inner{width:calc(100% - 34px)}.hero h1{font-size:48px}.hero p{font-size:14px}.hero-note span{display:inline-block;margin:4px 12px 4px 0}.trip-grid{grid-template-columns:1fr}.trip-card img{height:190px}.destinations{gap:9px}.destination,.destination img{min-height:170px}.destination h3{font-size:16px}.destination div{left:12px;bottom:10px}.values{gap:7px}.value{padding:12px 5px}}
+  </style>
+</head>
+<body>
+<header class="site-header wrap">
+  <a class="brand" href="#home"><span class="brand-mark">永</span><span>永芳旅行社<small>YONGFANG TRAVEL</small></span></a>
+  <button class="menu-toggle" aria-label="開啟選單" aria-expanded="false">☰</button>
+  <nav>
+    <a href="#home">首頁<small>HOME</small></a>
+    <a href="#destinations">旅遊目的地<small>DESTINATIONS</small></a>
+    <a href="#trips">精選行程<small>FEATURED TRIPS</small></a>
+    <a href="#about">關於永芳<small>ABOUT</small></a>
+    <a href="#contact">聯絡我們<small>CONTACT</small></a>
+  </nav>
+  <a class="header-cta" href="#contact">洽詢行程 ↗</a>
+</header>
+<main>
+  <section class="hero" id="home">
+    <div class="hero-inner">
+      <div class="eyebrow">YONGFANG TRAVEL · YOUR JOURNEY</div>
+      <h1>世界這麼大，<br>讓永芳帶您<span class="gradient">去看看。</span></h1>
+      <p>從山海風景到人文故事，從經典路線到深度探索。用心規劃每一段旅程，讓每一次出發，都成為值得珍藏的美好回憶。</p>
+      <div class="hero-actions"><a class="btn btn-primary" href="#trips">探索精選行程 ↗</a><a class="btn" href="#contact">預約旅遊諮詢 →</a></div>
+      <div class="hero-note"><span>用心規劃</span><span>專業安排</span><span>安心出遊</span></div>
+    </div>
+  </section>
+  <div class="ticker">DISCOVER THE WORLD <b>✳</b> TRAVEL WITH HEART <b>✳</b> COLLECT BEAUTIFUL MEMORIES <b>✳</b> YONGFANG TRAVEL</div>
+  <section class="section wrap">
+    <div class="section-head"><div class="eyebrow">TRAVEL WITH YONGFANG</div><h2>每一段旅程，都值得用心安排</h2><p class="intro">旅行不只是抵達目的地，更是沿途的風景、相遇的人與心中的感動。永芳以細心規劃與專業服務，陪您安心探索世界。</p></div>
+  </section>
+  <section class="section wrap" id="destinations">
+    <div class="section-head"><div class="eyebrow">EXPLORE THE WORLD</div><h2>五大旅遊目的地</h2><p>精選不同風景與文化，找到您心中嚮往的旅行。</p></div>
+    <div class="destinations">
+      <article class="destination"><img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=700&q=80" alt="日本京都街景"><div><h3>日本</h3><p>四季風情・文化漫遊</p></div></article>
+      <article class="destination"><img src="https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=700&q=80" alt="中國古城"><div><h3>中國</h3><p>絲路山河・人文古蹟</p></div></article>
+      <article class="destination"><img src="https://images.unsplash.com/photo-1538485399081-7191377e8241?w=700&q=80" alt="韓國城市景觀"><div><h3>韓國</h3><p>潮流城市・美食探索</p></div></article>
+      <article class="destination"><img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=700&q=80" alt="歐洲義大利風景"><div><h3>歐洲</h3><p>古典藝術・浪漫風光</p></div></article>
+      <article class="destination"><img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=700&q=80" alt="東南亞海島"><div><h3>東南亞</h3><p>熱帶度假・悠閒假期</p></div></article>
+    </div>
+  </section>
+  <section class="section trips" id="trips">
+    <div class="wrap">
+      <div class="section-head"><div class="eyebrow">FEATURED JOURNEYS</div><h2>精選熱門行程</h2><p>把握出發好時節，與永芳一起收藏世界美景。</p></div>
+      <div class="trip-grid">
+        <article class="trip-card">
+          <img src="https://images.unsplash.com/photo-1504851149312-7a075b496cc7?w=1000&q=85" alt="甘肅青海高原山景">
+          <div class="trip-content"><div class="trip-tag">CHINA · 10 DAYS</div><h3>甘肅、青海大環線・絲路 10 日</h3><p>走訪絲路文化與青甘壯麗山河，感受高原湖泊、戈壁風光與歷史人文。</p><div class="trip-bottom"><div class="trip-date">出發日期<br><strong>2027 / 05 / 25</strong></div><div class="trip-price">$65,800 <small>/ 位</small></div></div><p>團費含稅及小費；詳細行程與名額請洽詢。</p></div>
+        </article>
+        <article class="trip-card">
+          <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1000&q=85" alt="青海湖天空與湖景">
+          <div class="trip-content"><div class="trip-tag">CHINA · 11 DAYS</div><h3>甘肅河西四郡・青海大環線・絲路 11 日</h3><p>茶卡天空之鏡、青海湖與敦煌鳴沙山月牙泉，串起絲路經典風景。</p><div class="trip-bottom"><div class="trip-date">出發日期<br><strong>2027 / 06 / 18</strong></div><div class="trip-price">$67,500 <small>/ 位</small></div></div><p>團費含稅及小費；詳細行程與名額請洽詢。</p></div>
+        </article>
+      </div>
+      <div class="trip-note">※ 行程內容、團費及出發日期可能依航空、飯店與實際成團狀況調整，請以旅行社最新公告及正式報價為準。</div>
+    </div>
+  </section>
+  <section class="section wrap" id="about">
+    <div class="about-grid">
+      <img class="about-photo" src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1100&q=85" alt="湖光山色的旅遊風景">
+      <div class="about-copy"><div class="eyebrow">ABOUT YONGFANG</div><h2>旅行，是一場與美好相遇的過程。</h2><p>永芳旅行社有限公司重視每一位旅客的期待，從行程規劃、交通住宿到旅途中的細節安排，以專業與熱忱，陪伴您安心出發。</p><p>無論是企業員工旅遊、團體旅遊或深度主題行程，我們都希望讓每一次相聚，都留下值得回味的回憶。</p><div class="values"><div class="value"><strong>用心</strong><span>細緻規劃</span></div><div class="value"><strong>專業</strong><span>品質服務</span></div><div class="value"><strong>安心</strong><span>旅程相伴</span></div></div></div>
+    </div>
+  </section>
+  <section class="section contact" id="contact">
+    <div class="wrap"><div class="section-head"><div class="eyebrow">CONTACT YONGFANG</div><h2>下一段美好旅程，讓我們為您安排</h2><p>團體旅遊、企業員工旅遊及客製化行程，歡迎來電洽詢。</p></div>
+      <div class="contact-grid">
+        <div class="contact-card"><h3>永芳旅行社有限公司</h3><div class="contact-line"><small>PHONE</small><strong><a href="tel:+886225817199">(02) 2581-7199</a></strong></div><div class="contact-line"><small>ADDRESS</small><strong>台北市松山區八德路四段245巷32弄59號</strong></div><div class="contact-line"><small>OFFICIAL WEBSITE</small><strong><a href="https://yongfang.ittms.com.tw/" target="_blank" rel="noopener">yongfang.ittms.com.tw ↗</a></strong></div></div>
+        <div class="contact-card"><h3>旅行業相關資訊</h3><div class="contact-line"><small>TRAVEL AGENCY REGISTRATION</small><strong>旅行業登記字號：北2591</strong></div><div class="contact-line"><small>LICENSE</small><strong>甲種旅行業執照：06569</strong></div><div class="contact-line"><small>CONSULTATION</small><strong>歡迎來電洽詢行程、團體報價及出發日期。</strong></div><p style="margin-top:22px"><a class="btn btn-primary" href="tel:+886225817199">立即電話洽詢 ↗</a></p></div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="wrap footer"><strong>永芳旅行社有限公司｜YONGFANG TRAVEL</strong><span>用心服務，陪您看見世界的美好。</span><a href="#home">回到首頁 ↑</a></footer>
+<script>
+  const menuButton=document.querySelector('.menu-toggle');
+  const nav=document.querySelector('.site-header nav');
+  menuButton.addEventListener('click',()=>{const open=nav.classList.toggle('open');menuButton.setAttribute('aria-expanded',String(open));});
+  nav.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{nav.classList.remove('open');menuButton.setAttribute('aria-expanded','false');}));
+</script>
+</body>
+</html>
